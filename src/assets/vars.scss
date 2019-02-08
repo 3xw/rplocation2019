@@ -1,4 +1,18 @@
 $colors: (
   'black': #000000,
-  'white': #FFFFFF
+  'white': #FFFFFF,
+  'green': #40A629,
+  'green-dark': #237D26
 );
+
+$margin--mini:10px;
+$margin--semi:20px;
+$margin--default:40px;
+$margin--double:80px;
+
+$default-font--light:'Baloo', cursive;
+$default-font--book:'Arial';
+$default-font--medium:'Arial';
+$default-font--bold:'Arial';
+
+$font-color: black;

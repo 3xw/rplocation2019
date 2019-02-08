@@ -1,0 +1,74 @@
+/*
+*   VARS
+*************/
+.color--black {
+  color: #000000 !important; }
+
+.bg--black {
+  background: #000000 !important; }
+
+.color--white {
+  color: #FFFFFF !important; }
+
+.bg--white {
+  background: #FFFFFF !important; }
+
+.color--green {
+  color: #40A629 !important; }
+
+.bg--green {
+  background: #40A629 !important; }
+
+.color--green-dark {
+  color: #237D26 !important; }
+
+.bg--green-dark {
+  background: #237D26 !important; }
+
+/*
+*   FONTS
+*************/
+body {
+  font-family: "Baloo", cursive;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 1px; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+h1 {
+  font-family: "Arial";
+  font-size: 3.5rem; }
+
+h2 {
+  font-family: "Arial";
+  font-size: 3rem; }
+
+h3 {
+  font-family: "Arial";
+  font-size: 2rem; }
+
+h4 {
+  font-family: "Arial";
+  font-size: 2rem; }
+
+/*
+*   PAGE
+*************/
+.page {
+  width: 100%;
+  height: 100%; }
+  .page__container {
+    width: 336px;
+    height: 280px; }
+
+/*
+*   STYLE
+*************/
+
+/*# sourceMappingURL=app.css.map */
