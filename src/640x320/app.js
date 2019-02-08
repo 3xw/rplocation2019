@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){var a=new TimelineMax,b=0,c="#img2",d="#img3",e="#img4";a.set([c,d,e],{opacity:0},b),b=2,a.to(c,1,{opacity:1},b),b=4,a.to(d,1,{opacity:1},b),b=6,a.to(e,1,{opacity:1},b),b=8,a.set([c,d],{opacity:0},b),a.to(e,1,{opacity:0},b),a.play(),a.repeat(2)});
+document.addEventListener("DOMContentLoaded",function(){var a=new TimelineMax,b=0,c="#img4";a.set([c],{opacity:0},b),b=2,a.to(c,1,{opacity:1},b),b=4,a.to(c,1,{opacity:0},b),a.play(),a.repeat(5)});
