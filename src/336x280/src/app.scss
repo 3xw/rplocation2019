@@ -1,24 +1,10 @@
-/*
-*   VARS
-*************/
-$margin--mini:10px;
-$margin--semi:20px;
-$margin--default:40px;
-$margin--double:80px;
-
-$default-font--light:'Arial';
-$default-font--book:'Arial';
-$default-font--medium:'Arial';
-$default-font--bold:'Arial';
-
-$font-color: black;
-
 @import '../../assets/vars';
 @import '../../assets/utils';
 
 /*
 *   FONTS
 *************/
+html, body { padding: 0; margin: 0; }
 body{ font-family: $default-font--light;color:$font-color;-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;letter-spacing: 1px;}
 html{font-size: 62.5%;}
 body{font-size: 1.6rem;}
@@ -37,10 +23,48 @@ h4{font-family: $default-font--book;font-size:2rem;}
 
   &__container {
     width: 336px; height:280px;
+    overflow: hidden; position: relative; z-index:10;
   }
 }
-
 
 /*
 *   STYLE
 *************/
+.black{ color: map-get($colors, 'black');}
+
+
+.img {
+  $this: &;
+
+  position: absolute; z-index:1; top:0px;left: 0px;
+
+  &__1 { left: 0px; }
+}
+
+.paths {
+  position: absolute; z-index:3; top:207px;left: -75px; width: 600px;
+  -webkit-transform: rotate(-90deg); /* Safari and Chrome */
+  -moz-transform: rotate(-90deg);   /* Firefox */
+  -ms-transform: rotate(-90deg);   /* IE 9 */
+  -o-transform: rotate(-90deg);   /* Opera */
+  transform: rotate(-90deg);
+
+  svg { width: 100%; }
+  .p1 { fill: rgba(255,255,255, 1);}
+  .p2 { fill: rgba(255,255,255, .6);}
+  .p3 { fill: rgba(255,255,255, .3);}
+
+}
+
+.banner {
+  position: absolute; z-index:3; top:0px;left: 180px; width: 140px; height: 280px;
+  font-family: $default-font--light;
+
+  .text {
+    font-size: 24px; color: map-get($colors, 'green-dark'); position: absolute; left: 10px; top: 10px;
+  }
+
+  .logo {
+    position: absolute; right: 10px; bottom: 10px;
+  }
+}
