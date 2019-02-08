@@ -71,6 +71,7 @@ h4 {
     position: relative;
     z-index: 10;
     background: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     background: white; }
 
 /*

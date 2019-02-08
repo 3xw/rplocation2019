@@ -23,7 +23,7 @@ h4{font-family: $default-font--book;font-size:2rem;}
 
   &__container {
     width: 728px; height:90px;
-    overflow: hidden; position: relative; z-index:10; background: white;
+    overflow: hidden; position: relative; z-index:10; background: white; border: 1px solid rgba(0,0,0,.5);
     background: white;
   }
 }
