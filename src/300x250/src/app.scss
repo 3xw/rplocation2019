@@ -61,7 +61,7 @@ h4{font-family: $default-font--book;font-size:2rem;}
   font-family: $default-font--light;
 
   .text {
-    font-size: 24px; color: map-get($colors, 'green-dark'); position: absolute; left: 10px; top: 10px;
+    font-size: 24px; line-height: 28px; color: map-get($colors, 'green-dark'); position: absolute; left: 10px; top: 10px;
   }
 
   .logo {

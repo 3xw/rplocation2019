@@ -89,7 +89,7 @@ h4 {
   position: absolute;
   z-index: 3;
   top: 207px;
-  left: 260px;
+  left: 230px;
   width: 600px;
   -webkit-transform: rotate(-90deg);
   /* Safari and Chrome */
@@ -119,6 +119,7 @@ h4 {
   font-family: "Baloo", cursive; }
   .banner .text {
     font-size: 24px;
+    line-height: 28px;
     color: #237D26;
     position: absolute;
     left: 10px;

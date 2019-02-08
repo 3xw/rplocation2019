@@ -121,10 +121,11 @@ h4 {
   font-family: "Baloo", cursive; }
   .banner .text {
     font-size: 16px;
+    line-height: 19px;
     color: #237D26;
     position: absolute;
     left: 55px;
-    top: 20px; }
+    top: 25px; }
   .banner .logo {
     position: absolute;
     right: 10px;
