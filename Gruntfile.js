@@ -3,6 +3,10 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     sass: {
       dist: {
+        options: {                       // Target options
+          sourcemap: 'none',
+          style: 'compressed'
+        },
         files: {"src/994x250/app.css":"src/994x250/src/app.scss","src/320x160/app.css":"src/320x160/src/app.scss","src/640x320/app.css":"src/640x320/src/app.scss","src/300x250/app.css":"src/300x250/src/app.scss","src/336x280/app.css":"src/336x280/src/app.scss","src/728x90/app.css":"src/728x90/src/app.scss","src/300x600/app.css":"src/300x600/src/app.scss","src/160x600/app.css":"src/160x600/src/app.scss"}
       }
     },
