@@ -34,20 +34,20 @@ document.addEventListener("DOMContentLoaded", function()
 
 
   time = 2
-  timeLine.to(i2,1,{opacity:1},time)
-
-  time = 4
-  timeLine.to(i3,1,{opacity:1},time)
-
-  time = 6
-  timeLine.to(i4,1,{opacity:1},time)
+  timeLine.to(i2,2,{opacity:1},time)
 
   time = 8
+  timeLine.to(i3,2,{opacity:1},time)
+
+  time = 12
+  timeLine.to(i4,2,{opacity:1},time)
+
+  time = 16
   timeLine.set([i2,i3],{opacity:0},time)
-  timeLine.to(i4,1,{opacity:0},time)
+  timeLine.to(i4,2,{opacity:0},time)
 
   //trigger and replay
   timeLine.play()
-  timeLine.repeat(2)
+  //timeLine.repeat(2)
 
 });
